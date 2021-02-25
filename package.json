@@ -30,11 +30,13 @@
   "homepage": "https://github.com/Rob--/memoryjs#readme",
   "dependencies": {
     "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
     "concentrate": "^0.2.3",
     "dissolve": "^0.3.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "node-addon-api": "^3.0.0"
+    "eslint-plugin-import": "^2.8.0"
   }
 }

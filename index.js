@@ -1,4 +1,4 @@
-const memoryjs = require('./build/Release/memoryjs');
+const memoryjs = require('bindings')('memoryjs');
 const Debugger = require('./debugger');
 
 module.exports = {
